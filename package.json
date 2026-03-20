@@ -1,0 +1,22 @@
+{
+  "name": "echobrains-assistance",
+  "version": "1.0.0",
+  "description": "EchoBrains AI Assistant with React frontend and Express backend",
+  "scripts": {
+    "dev": "cd echobrains-react && npm run dev",
+    "build": "cd echobrains-react && npm run build",
+    "server": "node server/server.js",
+    "start": "npm run server & npm run dev",
+    "install-deps": "cd echobrains-react && npm install"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mammoth": "^1.8.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
